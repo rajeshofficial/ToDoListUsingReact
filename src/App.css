@@ -1,0 +1,102 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222;
+}
+
+.container {
+  display: flex;
+  height: 90vh;
+  width: 60vh;
+  border-radius: 12px;
+  border-style: out;
+  border: 5px solid rgb(255, 215, 0);
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(11, 1, 1);
+  overflow: scroll;
+  box-shadow: 0px 3px 3px 2px;
+}
+
+h1 {
+  text-shadow: 0px 0px 5px;
+  box-shadow: 0px 3px 3px 2px;
+  color: rgb(226, 130, 28);
+}
+
+.todoform {
+  display: flex;
+  padding-left: 70px;
+  padding-right: 0;
+  width: 550px;
+}
+
+input {
+  width: 60%;
+  padding-left: 10px;
+  padding-right: 0;
+  border-radius: 20px;
+  border: none;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 5px;
+  margin-left: 10px;
+  width: 80px;
+}
+
+.alltodos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.singletext {
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color: rgb(234, 124, 20);
+  padding: 10px 20px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+
+.todotext {
+  flex-grow: 1;
+}
+
+.goedt:hover {
+  width: 90px;
+  background-color: #eacc0d;
+}
+
+button:hover {
+  background-color: #eacc0d;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 768px) {
+  /* Adjust container width for smaller screens */
+  .container {
+    width: 90%;
+  }
+
+  /* Adjust input width for smaller screens */
+  input {
+    width: 70%;
+  }
+
+  /* Adjust singletext width for smaller screens */
+  .singletext {
+    width: 100%;
+  }
+}

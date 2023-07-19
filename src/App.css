@@ -1,10 +1,11 @@
 .App {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #222;
 }
+
 
 .container {
   display: flex;
@@ -74,7 +75,7 @@ button {
 }
 
 .goedt:hover {
-  width: 90px;
+  width: 82px;
   background-color: #eacc0d;
 }
 
@@ -98,5 +99,11 @@ button:hover {
   /* Adjust singletext width for smaller screens */
   .singletext {
     width: 100%;
+  }
+  .todoform {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 0;
+    width: 400px;
   }
 }

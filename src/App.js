@@ -40,7 +40,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <h1>To-do List App</h1>
-        <form className="todoform" onSubmit={handleSubmit}>
+        <form className="todoform"  onSubmit={handleSubmit}>
           <input
             type="text"
             value={todo}
